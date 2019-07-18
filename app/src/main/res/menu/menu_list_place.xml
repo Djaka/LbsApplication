@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mn_search"
+        app:showAsAction="always|collapseActionView"
+        android:icon="@drawable/ic_search"
+        android:title="search contextName"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item
+        android:id="@+id/mn_filter"
+        app:showAsAction="always"
+        android:title="Filter Category"
+        android:icon="@drawable/ic_filter" />
+</menu>
